@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="307d7130-4453-4b02-af4f-ddde625240e1" name="Changes" comment="Prepare for NPM">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="307d7130-4453-4b02-af4f-ddde625240e1" name="Changes" comment="Formatting fixes in package" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +67,7 @@
       <updated>1645827698375</updated>
       <workItem from="1645827700654" duration="7451000" />
       <workItem from="1645835508163" duration="3517000" />
-      <workItem from="1645849552972" duration="61000" />
+      <workItem from="1645849552972" duration="482000" />
     </task>
     <task id="LOCAL-00001" summary="Initial configuration">
       <created>1645845237570</created>
@@ -99,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645849608412</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Formatting fixes in package">
+      <created>1645849631166</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645849631166</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +126,8 @@
     <MESSAGE value="Install rollup" />
     <MESSAGE value="eject create-react-app" />
     <MESSAGE value="Prepare for NPM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare for NPM" />
+    <MESSAGE value="Formatting fixes in package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatting fixes in package" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
