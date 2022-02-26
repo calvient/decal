@@ -1,11 +1,19 @@
 {
   "name": "calvient-decal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Calvient's React and React Native component library.",
   "author": "Jonathan Minson",
-  "keywords": ["react", "components", "ui", "nativebase"],
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "nativebase"
+  ],
   "private": false,
-  "files": [ "build", "README.md" ],
+  "files": [
+    "build",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/calvient/decal.git"
