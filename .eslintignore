@@ -1,0 +1,4 @@
+*.css
+*.svg
+webpack.mix.js
+*.blade.php
