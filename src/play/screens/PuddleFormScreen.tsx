@@ -58,7 +58,7 @@ const PuddleFormScreen = () => {
 
   return (
     <Container p={8}>
-      <VStack w={'full'} spacing={4}>
+      <VStack w={'full'} spacing={8}>
         <PuddleInput form={form} label={'Name'} fieldName={'name'} />
         <PuddleMaskedInput
           form={form}
