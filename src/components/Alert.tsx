@@ -12,14 +12,14 @@ import {
 import {createRoot} from 'react-dom/client';
 import theme from '../theme/theme';
 
-export type ConfirmProps = {
+export type DecalAlertProps = {
   title: string;
   size?: 'sm' | 'md' | 'lg' | 'xl' | '2xl' | 'xs' | '3xl' | '4xl' | '5xl' | '6xl' | 'full';
   content?: React.ReactNode | React.ReactNode[];
   onDestroy?: () => void;
 };
 
-const Modal: React.FC<ConfirmProps> = ({title, size = 'sm', content = '', onDestroy}) => {
+const Modal: React.FC<DecalAlertProps> = ({title, size = 'sm', content = '', onDestroy}) => {
   const [isOpen, setIsOpen] = useState(true);
   const cancelRef = useRef(null);
 
@@ -54,7 +54,7 @@ const Modal: React.FC<ConfirmProps> = ({title, size = 'sm', content = '', onDest
   );
 };
 
-export const alert = (props: ConfirmProps) => {
+export const alert = (props: DecalAlertProps) => {
   const domNode = document.getElementById('alert-modal-div') || document.createElement('div');
   const root = createRoot(domNode);
 

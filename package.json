@@ -1,6 +1,17 @@
 {
   "name": "@calvient/decal",
-  "version": "0.1.0",
+  "author": "Calvient",
+  "keywords": [
+    "react",
+    "chakra-ui",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvient/decal.git"
+  },
+  "license": "MIT",
+  "version": "0.0.1",
   "main": "dist/decal.umd.js",
   "module": "dist/decal.es.js",
   "types": "dist/decal.d.ts",
