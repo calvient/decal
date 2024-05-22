@@ -13,7 +13,7 @@ jobs:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org/'
       - run: yarn install --frozen-lockfile
-      - run: yarn build
+      - run: yarn clean && yarn build && yarn types
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

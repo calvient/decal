@@ -11,10 +11,10 @@
     "url": "git+https://github.com/calvient/decal.git"
   },
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/decal.umd.js",
   "module": "dist/decal.es.js",
-  "types": "dist/decal.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -25,8 +25,10 @@
   },
   "type": "module",
   "scripts": {
+    "clean": "rm -rf dist",
     "dev": "VITE_MODE=dev vite",
     "build": "tsc && VITE_MODE=build vite build",
+    "types": "tsc --project tsconfig.declarations.json",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

@@ -59,7 +59,7 @@ const PuddleAutocomplete = <TRequest,>({
       {form.fieldHasError(fieldName) && (
         <FormErrorMessage fontSize='xs'>{form.getFieldError(fieldName)}</FormErrorMessage>
       )}
-      {/* @ts-expect-error -- The `any` comes from the vendor package */}
+      {/* @ts-ignore -- The `any` comes from the vendor package */}
       <AutoComplete rollNavigation onSelectOption={({item}) => handleAddOption(item.value)}>
         <AutoCompleteInput variant='filled' placeholder='Search locations...' autoFocus />
         <AutoCompleteList>
