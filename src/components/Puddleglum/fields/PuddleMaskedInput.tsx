@@ -9,7 +9,7 @@ import {
   Tooltip,
 } from '@chakra-ui/react';
 import {useIMask} from 'react-imask';
-import {PuddleBag} from '../types/types.ts';
+import {PuddleBag} from '../types/types';
 
 interface PuddleMaskedInputProps<TRequest> {
   form: PuddleBag<TRequest>;

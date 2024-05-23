@@ -1,7 +1,7 @@
 import {useCallback, useEffect, useState} from 'react';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars -- it is used
 import axios, {AxiosError} from 'axios';
-import {PuddleBag, PuddleFormProps} from '../types/types.ts';
+import {PuddleBag, PuddleFormProps} from '../types/types';
 
 const usePuddleForm = <TRequest = unknown, TReply = TRequest>(
   {

@@ -1,7 +1,7 @@
 import {QuestionIcon} from '@chakra-ui/icons';
 import {Box, FormControl, FormErrorMessage, FormLabel, Tooltip} from '@chakra-ui/react';
 import {Mention, MentionsInput} from 'react-mentions';
-import {PuddleBag} from '../types/types.ts';
+import {PuddleBag} from '../types/types';
 
 interface PuddleFormMentionFieldProps<TRequest> {
   form: PuddleBag<TRequest>;

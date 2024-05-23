@@ -2,7 +2,7 @@ import {FC, useEffect, useMemo, useState} from 'react';
 import {HStack, Select, SelectProps} from '@chakra-ui/react';
 import {format} from 'date-fns';
 import {getDaysInMonth} from 'date-fns/getDaysInMonth';
-import Months from './enums/Months.ts';
+import Months from './enums/Months';
 
 interface YmdPickerProps extends Omit<SelectProps, 'onChange'> {
   value?: string;

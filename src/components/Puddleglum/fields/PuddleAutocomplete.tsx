@@ -14,7 +14,7 @@ import {
   AutoCompleteItem,
   AutoCompleteList,
 } from '@choc-ui/chakra-autocomplete';
-import {PuddleBag} from '../types/types.ts';
+import {PuddleBag} from '../types/types';
 
 interface PuddleMultipleSelectProps<TRequest> {
   form: PuddleBag<TRequest>;
@@ -59,7 +59,6 @@ const PuddleAutocomplete = <TRequest,>({
       {form.fieldHasError(fieldName) && (
         <FormErrorMessage fontSize='xs'>{form.getFieldError(fieldName)}</FormErrorMessage>
       )}
-      {/* @ts-ignore -- The `any` comes from the vendor package */}
       <AutoComplete rollNavigation onSelectOption={({item}) => handleAddOption(item.value)}>
         <AutoCompleteInput variant='filled' placeholder='Search locations...' autoFocus />
         <AutoCompleteList>

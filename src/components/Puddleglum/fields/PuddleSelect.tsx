@@ -1,5 +1,5 @@
 import {FormControl, FormErrorMessage, FormLabel, Select, SelectProps} from '@chakra-ui/react';
-import {PuddleBag} from '../types/types.ts';
+import {PuddleBag} from '../types/types';
 
 interface PuddleSelectProps<TRequest> {
   form: PuddleBag<TRequest>;

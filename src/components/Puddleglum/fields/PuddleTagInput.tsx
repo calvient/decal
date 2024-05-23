@@ -12,7 +12,7 @@ import {
   WrapItem,
 } from '@chakra-ui/react';
 import {MdCancel} from 'react-icons/md';
-import {PuddleBag} from '../types/types.ts';
+import {PuddleBag} from '../types/types';
 
 interface PuddleTagInputProps<TRequest> {
   form: PuddleBag<TRequest>;

@@ -1,16 +1,16 @@
-import usePuddleForm from '../../components/Puddleglum/hooks/usePuddleForm.ts';
-import {Model, puddleStore, puddleUpdate} from '../mocks.ts';
-import PuddleInput from '../../components/Puddleglum/fields/PuddleInput.tsx';
-import {Container, Button, VStack, useToast} from '../../index.ts';
-import PuddleSelect from '../../components/Puddleglum/fields/PuddleSelect.tsx';
-import PuddleTextarea from '../../components/Puddleglum/fields/PuddleTextarea.tsx';
-import PuddleSwitch from '../../components/Puddleglum/fields/PuddleSwitch.tsx';
-import PuddleDate from '../../components/Puddleglum/fields/PuddleDate.tsx';
-import PuddleDaySelector from '../../components/Puddleglum/fields/PuddleDaySelector.tsx';
-import PuddleMultipleSelect from '../../components/Puddleglum/fields/PuddleMultipleSelect.tsx';
-import PuddleAutocomplete from '../../components/Puddleglum/fields/PuddleAutocomplete.tsx';
-import PuddleMaskedInput from '../../components/Puddleglum/fields/PuddleMaskedInput.tsx';
-import PuddleTagInput from '../../components/Puddleglum/fields/PuddleTagInput.tsx';
+import usePuddleForm from '../../components/Puddleglum/hooks/usePuddleForm';
+import {Model, puddleStore, puddleUpdate} from '../mocks';
+import PuddleInput from '../../components/Puddleglum/fields/PuddleInput';
+import {Container, Button, VStack, useToast} from '../../index';
+import PuddleSelect from '../../components/Puddleglum/fields/PuddleSelect';
+import PuddleTextarea from '../../components/Puddleglum/fields/PuddleTextarea';
+import PuddleSwitch from '../../components/Puddleglum/fields/PuddleSwitch';
+import PuddleDate from '../../components/Puddleglum/fields/PuddleDate';
+import PuddleDaySelector from '../../components/Puddleglum/fields/PuddleDaySelector';
+import PuddleMultipleSelect from '../../components/Puddleglum/fields/PuddleMultipleSelect';
+import PuddleAutocomplete from '../../components/Puddleglum/fields/PuddleAutocomplete';
+import PuddleMaskedInput from '../../components/Puddleglum/fields/PuddleMaskedInput';
+import PuddleTagInput from '../../components/Puddleglum/fields/PuddleTagInput';
 
 const model: Model = {
   assignees: [],

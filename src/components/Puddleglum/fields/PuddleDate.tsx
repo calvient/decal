@@ -2,7 +2,7 @@ import {useEffect, useMemo, useState} from 'react';
 import {FormControl, FormErrorMessage, FormLabel, HStack, Select} from '@chakra-ui/react';
 import {getDaysInMonth} from 'date-fns/getDaysInMonth';
 import Months from '../../enums/Months';
-import {PuddleBag} from '../types/types.ts';
+import {PuddleBag} from '../types/types';
 
 interface PuddleDateProps<TRequest> {
   form: PuddleBag<TRequest>;

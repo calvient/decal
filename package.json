@@ -11,7 +11,7 @@
     "url": "git+https://github.com/calvient/decal.git"
   },
   "license": "MIT",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/decal.umd.js",
   "module": "dist/decal.es.js",
   "types": "dist/index.d.ts",

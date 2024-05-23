@@ -1,6 +1,6 @@
 import {InfoIcon} from '@chakra-ui/icons';
 import {FormControl, FormErrorMessage, FormLabel, Switch, Tooltip} from '@chakra-ui/react';
-import {PuddleBag} from '../types/types.ts';
+import {PuddleBag} from '../types/types';
 
 interface PuddleSwitchProps<TRequest> {
   form: PuddleBag<TRequest>;

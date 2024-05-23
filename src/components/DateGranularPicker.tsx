@@ -1,7 +1,7 @@
 import {FC, useEffect, useMemo, useState} from 'react';
 import {HStack, Select} from '@chakra-ui/react';
 import {getDaysInMonth} from 'date-fns/getDaysInMonth';
-import Months from './enums/Months.ts';
+import Months from './enums/Months';
 
 interface DateGranularPickerProps {
   startYear: number;

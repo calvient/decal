@@ -7,7 +7,7 @@ import {
   InputProps,
   Tooltip,
 } from '@chakra-ui/react';
-import {PuddleBag} from '../types/types.ts';
+import {PuddleBag} from '../types/types';
 
 interface PuddleInputProps<TRequest> {
   form: PuddleBag<TRequest>;

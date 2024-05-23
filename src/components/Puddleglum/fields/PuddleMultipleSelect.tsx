@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
 import {Checkbox, FormControl, FormErrorMessage, FormLabel, Wrap, WrapItem} from '@chakra-ui/react';
-import {PuddleBag} from '../types/types.ts';
+import {PuddleBag} from '../types/types';
 
 interface PuddleMultipleSelectProps<TRequest> {
   form: PuddleBag<TRequest>;

@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {Box, ChakraProvider, HStack, ChevronRightIcon} from '../index.ts';
-import theme from '../theme/theme.ts';
-import PuddleFormScreen from './screens/PuddleFormScreen.tsx';
+import {Box, ChakraProvider, HStack, ChevronRightIcon} from '../index';
+import theme from '../theme/theme';
+import PuddleFormScreen from './screens/PuddleFormScreen';
 import {Button} from '@chakra-ui/react';
-import EmptyState from '../components/EmptyState.tsx';
-import {alert} from '../components/Alert.tsx';
-import {confirm} from '../components/Confirm.tsx';
-import {prompt} from '../components/Prompt.tsx';
+import EmptyState from '../components/EmptyState';
+import {alert} from '../components/Alert';
+import {confirm} from '../components/Confirm';
+import {prompt} from '../components/Prompt';
 
 const App = () => {
   const [currentScreen, setCurrentScreen] = React.useState(0);

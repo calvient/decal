@@ -1,5 +1,5 @@
 import {Button, FormControl, FormErrorMessage, FormLabel, HStack} from '@chakra-ui/react';
-import {PuddleBag} from '../types/types.ts';
+import {PuddleBag} from '../types/types';
 
 interface PuddleDaySelectorProps<TRequest> {
   form: PuddleBag<TRequest>;
