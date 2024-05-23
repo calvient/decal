@@ -1,12 +1,14 @@
-import {defineConfig} from 'vite';
+import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import tsconfigPaths from 'vite-tsconfig-paths'; // Ensure you have this plugin for resolving TS paths
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), tsconfigPaths()],
   build: {
     lib: {
-      entry: 'src/index.ts',
+      entry: 'src/index.ts', // Ensure this is the correct path to your entry file
       name: 'Decal',
+      formats: ['es', 'cjs'], // Specify the formats you want to generate
       fileName: (format) => `decal.${format}.js`,
     },
     rollupOptions: {
